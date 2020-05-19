@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHIElectronics.TinyCLR.Data.GpsParser", "GHIElectronics.TinyCLR.Data.GpsParser\GHIElectronics.TinyCLR.Data.GpsParser.csproj", "{913F5708-BF5C-491C-B636-8AFF341F0B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{A96A6118-3F57-4326-88E9-10D406FF13A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{426AC967-375A-4F4A-9A39-FB2078F48806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2B190057-5E24-4748-B69E-DA39B5FCE344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGPSModule", "TestGPSModule\TestGPSModule.csproj", "{26F9DF7B-F199-447E-BA49-CCDC8D361121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{913F5708-BF5C-491C-B636-8AFF341F0B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913F5708-BF5C-491C-B636-8AFF341F0B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913F5708-BF5C-491C-B636-8AFF341F0B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913F5708-BF5C-491C-B636-8AFF341F0B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96A6118-3F57-4326-88E9-10D406FF13A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96A6118-3F57-4326-88E9-10D406FF13A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96A6118-3F57-4326-88E9-10D406FF13A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96A6118-3F57-4326-88E9-10D406FF13A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F9DF7B-F199-447E-BA49-CCDC8D361121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F9DF7B-F199-447E-BA49-CCDC8D361121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F9DF7B-F199-447E-BA49-CCDC8D361121}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26F9DF7B-F199-447E-BA49-CCDC8D361121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F9DF7B-F199-447E-BA49-CCDC8D361121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F9DF7B-F199-447E-BA49-CCDC8D361121}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{913F5708-BF5C-491C-B636-8AFF341F0B59} = {426AC967-375A-4F4A-9A39-FB2078F48806}
+		{A96A6118-3F57-4326-88E9-10D406FF13A5} = {426AC967-375A-4F4A-9A39-FB2078F48806}
+		{26F9DF7B-F199-447E-BA49-CCDC8D361121} = {2B190057-5E24-4748-B69E-DA39B5FCE344}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B92A26C-F147-4BB5-8AB2-BD69AF1703F8}
+	EndGlobalSection
+EndGlobal
